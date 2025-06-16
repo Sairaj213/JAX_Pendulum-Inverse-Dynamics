@@ -1,0 +1,18 @@
+simulation:
+  g: 9.81
+  L: 1.0
+  T: 10.0
+  num_steps: 500
+  total_time: 10.0
+
+target_trajectory:
+  initial_theta: 0.7854
+  initial_omega: 0.0
+
+optimization:
+  learning_rate: 0.05
+  epochs: 1000
+  seed: 42
+  initial_guess:  # Optional; if empty, random guess is used
+    theta: null
+    omega: null
